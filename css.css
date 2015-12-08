@@ -1,17 +1,30 @@
-#frame {
+.Calculator{
   border: 1px solid gray;
   height: 100%;
-  width: 472px;
+  width: 500px;
 }
 
-#display {
-  height: 100%;
-  width: 99%;
+.display {
+  width: 497px;
+  height: 75px;
   border-radius: 3px;
   border: 2px solid black;
+}
+
+.Equation {
+  font-size: 16pt;
+  height: 15px;
   text-align: right;
-  float: top;
-  font-size: 35px;
+  margin-bottom: 5px;
+  margin-right: 3px;
+}
+
+.CurrentNumber {
+  height: 50px;
+  font-size: 40px;
+  text-align: right;
+  vertical-align: middle;
+  margin-right: 3px;
 }
 
 .btn {
